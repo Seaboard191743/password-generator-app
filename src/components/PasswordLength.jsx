@@ -31,9 +31,11 @@ export const PasswordLength = () => {
         <span className='password-length-num'>{passwordLength}</span>
       </div>
       <div className='password-length-setting'>
+        <label htmlFor='password-length'></label>
         <input
           ref={inputRef}
           type='range'
+          id='password-length'
           min='0'
           max='15'
           onChange={changePasswordLength}
