@@ -27,11 +27,12 @@ export const PasswordLength = () => {
   return (
     <div className='password-length'>
       <div className='password-length-info'>
-        <span className='password-length-title'>Character Length</span>
+        <label htmlFor='password-length' className='password-length-title'>
+          Character Length
+        </label>
         <span className='password-length-num'>{passwordLength}</span>
       </div>
       <div className='password-length-setting'>
-        <label htmlFor='password-length'></label>
         <input
           ref={inputRef}
           type='range'
