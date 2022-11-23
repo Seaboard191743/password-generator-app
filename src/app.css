@@ -286,4 +286,7 @@ input[type='checkbox']:checked {
   .password-copy > span {
     margin-right: 10px;
   }
+  .indicator-label {
+    margin-right: 0;
+  }
 }
